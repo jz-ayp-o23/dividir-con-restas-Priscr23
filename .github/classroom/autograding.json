@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "218/53",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 dividir_con_restas.py",
+      "input": "218\r\n53",
+      "output": "^\\D*4\\D+6\\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "750/25",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 dividir_con_restas.py",
+      "input": "750\r\n25",
+      "output": "^\\D*30\\D+0\\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "63/63",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 dividir_con_restas.py",
+      "input": "63\r\n63",
+      "output": "^\\D*1\\D+0\\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "657/659",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 dividir_con_restas.py",
+      "input": "657\r\n659",
+      "output": "^\\D*0\\D+657\\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
